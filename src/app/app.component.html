@@ -1,0 +1,691 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+
+
+  <div id="threejs-canvas-container" class="container md:containerG">
+
+    <div class="pages">
+
+      <div class="page one">
+
+
+        <div class="flex w-full h-full">
+
+          <div
+            class="snip1374 flex self-end md:self-end bg-black items-center w-full md:w-1/2 md:justify-center h-full md:h-full image-container">
+            <img class="-bottom-[40%] -right-[10%] md:right-[0%] md:-bottom-[90%]" src="assets/images/moi.png" alt="image de moi" />
+            <img
+              class="orleans -bottom-[30%] md:-bottom-[90%] md:flex transition-opacity duration-300 opacity-0 md:hover:opacity-100"
+              src="assets/images/moiorleans.gif" alt="image de moi" />
+
+          </div>
+
+          <div class="intro  h-3/4 w-screen md:w-2/3 md:h-full">
+            <div class=" flex flex-col -top-[30%] md:-bottom-[90%] ">
+              <p class="bienvenue sm:text-2xl md:text-xl w-full">
+                Bienvenue dans mon<span class="tooltip">&nbsp;Houseline ! <span class="tooltiptext">Bienvenue sur ma
+                    maison en ligne !</span></span>
+              </p>
+
+
+
+              <h3 class="prenom sm:block slow-motion">Patrice SIMO</h3>
+
+              <div class="nom">
+                <div class="sign text-6xl md:text-30xl lg:text-50xl w-screen">
+                  <span class="fast-flicker">T</span>OTC<span class="flicker">H</span>EU
+                </div>
+              </div>
+
+              <div class="stem sm:text-2xl md:text-xl">
+                <p>System<span class="text-white">.<span class="text-red-500">out</span>.</span><span
+                    class="text-blue-500">println</span>("</p>
+                <div class="monstring">
+                  <h1 class="greeting en">Je suis</h1>
+                  <h1 class="greeting es">Dev FullStack</h1>
+                  <h1 class="greeting de">DevOPS</h1>
+                  <h1 class="greeting it">Etudiant M2</h1>
+                </div>
+                <p class="closure">");</p>
+              </div>
+
+
+            </div>
+
+            <div lass="flex flex-col">
+
+              <div>
+                <p class="suivez" id="suivez">Suivez moi sur : </p>
+              </div>
+              <div class="social-icons">
+                <div id="facebook" class="icon bulle">
+
+                  <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path class="time-3-icon"
+                      d="M464 0h-416c-26.4 0-48 21.6-48 48v416c0 26.4 21.6 48 48 48h208v-224h-64v-64h64v-32c0-52.9 43.1-96 96-96h64v64h-64c-17.6 0-32 14.4-32 32v32h96l-16 64h-80v224h144c26.4 0 48-21.6 48-48v-416c0-26.4-21.6-48-48-48z">
+                    </path>
+                  </svg>
+
+                </div>
+
+
+
+                <div id="twitter" class="icon bulle">
+                  <a href="#" target="_blank">
+                  <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path class="time-3-icon"
+                      d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z">
+                    </path>
+                  </svg>
+                </a>
+                </div>
+
+
+                <div id="linkedin" class="icon bulle">
+                  <a href="https://www.linkedin.com/in/patrice-simo-a81b03181/" target="_blank">
+                  <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <title></title>
+                    <path class="time-3-icon"
+                      d="M464 0h-416c-26.4 0-48 21.6-48 48v416c0 26.4 21.6 48 48 48h416c26.4 0 48-21.6 48-48v-416c0-26.4-21.6-48-48-48zM192 416h-64v-224h64v224zM160 160c-17.7 0-32-14.3-32-32s14.3-32 32-32c17.7 0 32 14.3 32 32s-14.3 32-32 32zM416 416h-64v-128c0-17.7-14.3-32-32-32s-32 14.3-32 32v128h-64v-224h64v39.7c13.2-18.1 33.4-39.7 56-39.7 39.8 0 72 35.8 72 80v144z">
+                    </path>
+                  </svg>
+                </a>
+                </div>
+
+                <div id="insta" class="icon bulle">
+                  <a href="https://instagram.com/dyeux2?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank">
+                  <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path class="time-3-icon"
+                      d="M256 46.1c68.4 0 76.5 0.3 103.4 1.5 25 1.1 38.5 5.3 47.5 8.8 11.9 4.6 20.5 10.2 29.4 19.1 9 9 14.5 17.5 19.2 29.4 3.5 9 7.7 22.6 8.8 47.5 1.2 27 1.5 35.1 1.5 103.4s-0.3 76.5-1.5 103.4c-1.1 25-5.3 38.5-8.8 47.5-4.6 11.9-10.2 20.5-19.1 29.4-9 9-17.5 14.5-29.4 19.2-9 3.5-22.6 7.7-47.5 8.8-27 1.2-35.1 1.5-103.4 1.5s-76.5-0.3-103.4-1.5c-25-1.1-38.5-5.3-47.5-8.8-11.9-4.6-20.5-10.2-29.4-19.1-9-9-14.5-17.5-19.2-29.4-3.5-9-7.7-22.6-8.8-47.5-1.2-27-1.5-35.1-1.5-103.4s0.3-76.5 1.5-103.4c1.1-25 5.3-38.5 8.8-47.5 4.6-11.9 10.2-20.5 19.1-29.4 9-9 17.5-14.5 29.4-19.2 9-3.5 22.6-7.7 47.5-8.8 26.9-1.2 35-1.5 103.4-1.5zM256 0c-69.5 0-78.2 0.3-105.5 1.5-27.2 1.2-45.9 5.6-62.1 11.9-16.9 6.6-31.2 15.3-45.4 29.6-14.3 14.2-23 28.5-29.6 45.3-6.3 16.3-10.7 34.9-11.9 62.1-1.2 27.4-1.5 36.1-1.5 105.6s0.3 78.2 1.5 105.5c1.2 27.2 5.6 45.9 11.9 62.1 6.6 16.9 15.3 31.2 29.6 45.4 14.2 14.2 28.5 23 45.3 29.5 16.3 6.3 34.9 10.7 62.1 11.9 27.3 1.2 36 1.5 105.5 1.5s78.2-0.3 105.5-1.5c27.2-1.2 45.9-5.6 62.1-11.9 16.8-6.5 31.1-15.3 45.3-29.5s23-28.5 29.5-45.3c6.3-16.3 10.7-34.9 11.9-62.1 1.2-27.3 1.5-36 1.5-105.5s-0.3-78.2-1.5-105.5c-1.2-27.2-5.6-45.9-11.9-62.1-6.3-17-15-31.3-29.3-45.5-14.2-14.2-28.5-23-45.3-29.5-16.3-6.3-34.9-10.7-62.1-11.9-27.4-1.3-36.1-1.6-105.6-1.6v0z">
+                    </path>
+                    <path class="time-3-icon"
+                      d="M256 124.5c-72.6 0-131.5 58.9-131.5 131.5s58.9 131.5 131.5 131.5 131.5-58.9 131.5-131.5c0-72.6-58.9-131.5-131.5-131.5zM256 341.3c-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3c47.1 0 85.3 38.2 85.3 85.3s-38.2 85.3-85.3 85.3z">
+                    </path>
+                    <path class="time-3-icon bulle"
+                      d="M423.4 119.3c0 16.955-13.745 30.7-30.7 30.7s-30.7-13.745-30.7-30.7c0-16.955 13.745-30.7 30.7-30.7s30.7 13.745 30.7 30.7z">
+                    </path>
+                  </svg>
+                </a>
+                </div>
+                <div id="git" class="icon bulle">
+                  <a href="https://github.com/patriceSImo" target="_blank">
+                  <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+                    viewBox="0 0 512 512">
+                    <path class="time-3-icon"
+                      d="M256.004 6.321c-141.369 0-256.004 114.609-256.004 255.999 0 113.107 73.352 209.066 175.068 242.918 12.793 2.369 17.496-5.555 17.496-12.316 0-6.102-0.24-26.271-0.348-47.662-71.224 15.488-86.252-30.205-86.252-30.205-11.641-29.588-28.424-37.458-28.424-37.458-23.226-15.889 1.755-15.562 1.755-15.562 25.7 1.805 39.238 26.383 39.238 26.383 22.836 39.135 59.888 27.82 74.502 21.279 2.294-16.543 8.926-27.84 16.253-34.232-56.865-6.471-116.638-28.425-116.638-126.516 0-27.949 10.002-50.787 26.38-68.714-2.658-6.45-11.427-32.486 2.476-67.75 0 0 21.503-6.876 70.42 26.245 20.418-5.674 42.318-8.518 64.077-8.617 21.751 0.099 43.668 2.943 64.128 8.617 48.867-33.122 70.328-26.245 70.328-26.245 13.936 35.264 5.175 61.3 2.518 67.75 16.41 17.928 26.347 40.766 26.347 68.714 0 98.327-59.889 119.975-116.895 126.312 9.182 7.945 17.362 23.523 17.362 47.406 0 34.254-0.298 61.822-0.298 70.254 0 6.814 4.611 14.797 17.586 12.283 101.661-33.888 174.921-129.813 174.921-242.884 0-141.39-114.617-255.999-255.996-255.999z">
+                    </path>
+                  </svg>
+                </a>
+                </div>
+
+              </div>
+              <div class="cv">
+                <a href="assets/images/cv.pdf" target="_blank">
+                  <button class="shiny-button">Afficher mon CV</button>
+                </a>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="bouton-menu ">
+          <div class=" back menu--11a  menu">
+            <label class="lab--11a">
+              <input type="checkbox" onClick="slide('next')">
+              <svg viewBox="0 0 100 100">
+                <circle cx="20" cy="20" r="10" class="cercle" />
+                <path class="line--1 neon" d="M0 40h62c18 0 18-20-17 5L31 55" />
+                <path class="line--2 neon" d="M0 50h80" />
+                <path class="line--3 neon" d="M0 60h62c18 0 18 20-17-5L31 45" />
+              </svg>
+            </label>
+          </div>
+
+          <div class=" back menu--21a  menu">
+            <label class="lab--21a">
+              <input type="checkbox" class="runButton" onClick="slide1('next1'), play(),down()">
+              <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="30" />
+                <path class="line--1" d="M0 40h62c18 0 18-20-17 5L31 55" />
+                <path class="line--2" d="M0 50h80" />
+                <path class="line--3" d="M0 60h62c18 0 18 20-17-5L31 45" />
+              </svg>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!--DEUXIEME PAGE DU HAUT-->
+      <div class="page flex flex-col h-full two relative">
+
+        <div class="app-container ">
+
+          <h1 class="flex justify-center w-screen titreC">MES COMPETENCES</h1>
+          <div
+            class="container22 md:flex-col md:items-center md:justify-center md:text-center grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div class="leftC2 w-[75%]">
+              <br />
+              <span class="span2">{{ currentText }}</span>
+              <div>
+              </div>
+            </div>
+
+            <div class="rightc2 self-start md:self-auto md:w-[60%] md:h-[80%] w-[70%] h-[50%]">
+              <ul>
+                <li (mouseover)="changeText(longParagraphe1())">
+                  <img class="w-full h-full" src="assets/images/devops.svg" alt="icon devops">
+                  <span>
+                    <strong>DEVOPS</strong>
+                    <p> Pour des Solutions Avancées de Dev et de Déploiement. </p>
+                  </span>
+                </li>
+                <li (mouseover)="changeText(longParagraphe2())">
+                  <img class="icontext" src="assets/images/visualc.svg" alt="">
+                  <span>
+                    <strong>Dev d'applications</strong>
+                    <p>Création Innovante à travers le Développement d'Applications </p>
+                  </span>
+                </li>
+                <li
+                  (mouseover)="changeText(longParagraphe3())">
+                  <img class="icontext" src="assets/images/data.svg" alt="">
+                  <span>
+                    <strong>Bases de données & CRM</strong>
+                    <p>Gestion de Bases de Données et Optimisation des CRM</p>
+                  </span>
+                </li>
+                <li
+                  (mouseover)="changeText(longParagraphe4())">
+                  <img class="icontext" src="assets/images/hello.svg" alt="">
+                  <span>
+                    <strong>CMS & Infographie</strong>
+                    <p>Captiver à travers l'Art Visuel et la Créativité </p>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <app-threejs-auto-animation class="background-canvas"></app-threejs-auto-animation>
+
+        <div class="div--menu--2a absolute z-50 ">
+          <div class=" back menu--12a  menu">
+            <label class="lab--12a">
+              <input type="checkbox" id="startAnimationButton" onClick="slide('prev')">
+              <svg viewBox="0 0 100 100">
+                <circle cx="20" cy="20" r="10" class="cercle" />
+                <path class="line--1 neon" d="M0 40h62c18 0 18-20-17 5L31 55" />
+                <path class="line--2 neon" d="M0 50h80" />
+                <path class="line--3 neon" d="M0 60h62c18 0 18 20-17-5L31 45" />
+              </svg>
+            </label>
+          </div>
+
+          <div class=" back menu--22a  menu">
+            <label class="lab--22a">
+              <input type="checkbox" id="startAnimationButton" onClick="slide4('next')">
+              <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="30" />
+                <path class="line--1" d="M0 40h62c18 0 18-20-17 5L31 55" />
+                <path class="line--2" d="M0 50h80" />
+                <path class="line--3" d="M0 60h62c18 0 18 20-17-5L31 45" />
+              </svg>
+            </label>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <!--PREMIERE PAGE DU BAS-->
+
+    <div class="pages1">
+      <div class="page gradient three overflow-hidden">
+
+        <img class="orleans3 flex " src="assets/images/moiorleans.png" alt="image de moi" />
+
+
+        <div class="bg"></div>
+        <div class="bg2">
+          <div class="light-effect"></div>
+        </div>
+        <div>
+          <div class="position3 w-full">
+            <h1 class="about">À propos de moi</h1>
+            <div class=" flex flex-col md:flex-row w-full ">
+
+              <div class="w-full md:w-[60%] md:self-start h-full">
+
+                <div class="about-section md:w-[70%] w-[80%] ">
+                  <p>Étudiant en cinquième année en Expertise des Systèmes Informatiques (option DevOps) à l'école IT d'Orléans, je suis à la recherche d'une alternance stimulante pour mettre en pratique mes compétences variées. En tant que Développeur Full Stack et Webmaster, ma passion pour la programmation et le DevOps se combine à un esprit de recherche.
+
+                    Ma maîtrise des langages tels que Python, TypeScript, C# et Java me permet de créer des solutions informatiques avancées.
+
+                    Mon expérience en développement Full Stack et ma solide compréhension des systèmes informatiques me distinguent. Je suis impatient de contribuer à votre succès et d'évoluer dans un environnement dynamique.</p>
+
+
+                  <!-- <div class="swiper4 w-[15%] h-[15%] swiper-container4">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swipp"></div>
+                    <div class="swiper-slide swipp"></div>
+                    <div class="swiper-slide swipp"></div>
+
+                  </div>
+                </div>-->
+
+
+                </div>
+
+
+
+
+
+              </div>
+              <div class="liste w-full md:w-[30%]  flex md:self-end  h-full">
+                <div class="outis h-[60%]">
+
+                  <div class="ligneOutil">
+
+                    <div class="tool-item0">
+                      <h2 class="Tmes">Mes outils de travail</h2>
+                    </div>
+
+                    <div class="tool-item1 flex items-center ligneOutil">
+                      <div class=" flex ">
+                        <div  class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Sprintboot</h3>
+                      </div>
+
+                      <div class=" flex items-center">
+                        <div class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Django</h3>
+                      </div>
+
+                    </div>
+                    <div class="tool-item2 flex items-center ligneOutil">
+                      <div class=" flex ">
+                        <div id="linkedin" class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Angular</h3>
+                      </div>
+
+                      <div class=" flex ">
+                        <div id="linkedin" class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Ionic3/4</h3>
+                      </div>
+
+                    </div>
+                    <div class="tool-item3 flex items-center ligneOutil">
+                      <div class=" flex ">
+                        <div id="linkedin" class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Firebase</h3>
+                      </div>
+
+                      <div class=" flex ">
+                        <div id="linkedin" class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Laravel</h3>
+                      </div>
+
+                    </div>
+                    <div class="tool-item4 flex items-center ligneOutil">
+                      <div class=" flex ">
+                        <div id="linkedin" class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Docker</h3>
+                      </div>
+
+                      <div class=" flex">
+                        <div id="linkedin" class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Git</h3>
+                      </div>
+
+                    </div>
+                    <div class="tool-item5 flex items-center ligneOutil">
+                      <div class=" flex ">
+                        <div id="linkedin" class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Python </h3>
+                      </div>
+
+                      <div class=" flex ">
+                        <div id="linkedin" class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Java</h3>
+                      </div>
+
+                    </div>
+
+                    <div class="tool-item6 flex items-center ligneOutil">
+                      <div class=" flex ">
+                        <div id="linkedin" class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Github </h3>
+                      </div>
+
+                      <div class=" flex ">
+                        <div id="linkedin" class="puce">
+                          <svg class="w-full h-full" version="1.1" xmlns="http://www.w3.org/2000/svg" width="512"
+                            height="512" viewBox="0 0 512 512">
+                            <path class="time-3-icon"
+                              d="M131.070 0c-56.864 103.016-66.445 260.152 156.93 254.912v-126.912l192 192-192 192v-124.186c-267.48 6.971-297.286-236.107-156.93-387.814z">
+                            </path>
+                          </svg>
+                        </div>
+                        <h3>Html5/Sass</h3>
+                      </div>
+
+                    </div>
+
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class=" back menu--11b menu">
+          <label class="lab--11b">
+            <input type="checkbox" onClick="slide1('next')">
+            <svg viewBox="0 0 100 100">
+              <circle cx="20" cy="20" r="10" class="cercle" />
+              <path class="line--1 neon" d="M0 40h62c18 0 18-20-17 5L31 55" />
+              <path class="line--2 neon" d="M0 50h80" />
+              <path class="line--3 neon" d="M0 60h62c18 0 18 20-17-5L31 45" />
+            </svg>
+          </label>
+        </div>
+
+        <div class=" back menu--21b menu">
+          <label class="lab--21b">
+            <input type="checkbox" onClick="slide2('next2')">
+            <svg viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="30" />
+              <path class="line--1" d="M0 40h62c18 0 18-20-17 5L31 55" />
+              <path class="line--2" d="M0 50h80" />
+              <path class="line--3" d="M0 60h62c18 0 18 20-17-5L31 45" />
+            </svg>
+          </label>
+        </div>
+        <footer class="w-full">
+          Fait avec la 💡 du ❤️ || par @Patrice Simo 2023
+        </footer>
+
+      </div>
+
+
+
+
+      <!--DEUXIEME PAGE DU BAS-->
+      <div class="page four">
+
+        <div class="app-container">
+        </div>
+        <app-threejs-mouse-animation class="background-canvas"></app-threejs-mouse-animation>
+
+        <div class="containerLast2 w-full h-full flex flex-row">
+
+
+          <div class="flex flex-row petitSwipp w-[100%] h-[100%] ">
+
+            <div class="swiper3 w-[60%] h-[40%] swiper-no-swiping swiper-container3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide titre ">
+                  <h1>GESCO MONILE </h1>
+                </div>
+                <div class="swiper-slide titre">
+                  <h1>FYVES SAP </h1>
+                </div>
+                <div class="swiper-slide titre">
+                  <h1>ACADÉMIQUES & PERSONNELS</h1>
+                </div>
+                <div class="swiper-slide titre">
+                  <h1>NOUVEAU PROJET ?</h1>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="swiper1 w-[40%] h-[40%] swiper-no-swiping  swiper-container1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide expli ">
+                  <div>participation en tant que developpeur fullstack <br />
+                    Participer de bout en bout à la conception de l'application.<br />
+                    Developper des fonctionalités et des interfaces utilisateur<br />
+                    Deployer la solution chez les clients et
+                    Manager l'equipe dev en place.</div>
+                </div>
+
+                <div class="swiper-slide expli">
+                  <div>En tant que développeur fullstack, j'ai participé à la création de l'application d'entreprise
+                    SAP. Mes responsabilités comprenaient la conception et la mise en place de fonctionnalités clés
+                    telles que la géolocalisation et le chat, tout en assurant la maintenance continue de l'application.
+                  </div>
+                </div>
+                <div class="swiper-slide expli">
+                  <div>
+
+                    Etudiant en 5e année informatique et développeur fullstack, j'ai réalisé plusieurs
+                    projets illustrant ma passion pour la programmation et ma volonté de résoudre des problèmes concrets
+                    :<br />
+
+                    CVthèque Interactive : Création d'une CVthèque conviviale en utilisant HTML, CSS et JavaScript pour
+                    faciliter la gestion des curriculum vitae.<br />
+
+                    Portfolio Personnel : Développement d'un portfolio interactif (comme celui-ci) pour présenter mes
+                    compétences et réalisations.<br />
+
+                    APIs et Applications : Conception d'APIs et d'applications en JavaEE (Spring Boot, Hibernate) et
+                    Python (Django) pour répondre à divers besoins.
+
+                    Application de Chat sécurisée : Mise en place d'une application de chat avec authentification JWT
+                    pour des communications sécurisées.
+                  </div>
+                </div>
+                <div class="swiper-slide expli">
+                  <div>Chaque nouveau projet est une opportunité d'exploration, d'apprentissage
+                  et d'innovation.<br/>
+                  Mon désir inextinguible de découvrir de nouveaux horizons technologiques et de relever des défis
+                  stimulants est la force motrice qui m'anime.
+                  En quête d'une alternance qui fusionne passion et développement professionnel, je suis prêt à apporter
+                  ma passion, mon engagement et ma soif de connaissances pour contribuer de manière significative à
+                  chaque initiative.
+                  L'avenir est une toile vierge où je suis impatient d'ajouter mes couleurs, mes compétences et ma
+                  détermination.
+                </div>
+                </div>
+
+              </div>
+            </div>
+            <div id="vibrating-div" class="cardsP w-[60%] h-[100%] ">
+              <div class="swiper2 w-[20%] h-[70%] swiper-container2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swipp"></div>
+                  <div class="swiper-slide swipp"></div>
+                  <div class="swiper-slide swipp"></div>
+                  <div class="swiper-slide swipp"></div>
+
+                </div>
+                <div class="color-changing-text">
+                  <span><<<<<<<</span><span>F</span><span>a</span><span>i</span><span>t</span><span>e</span><span>s</span><span>&nbsp;</span><span> </span><span>g</span><span>l</span><span>i</span><span>s</span><span>s</span><span>e</span><span>r</span><span> </span><span>&nbsp;</span><span>i</span><span>c</span><span>i</span><span><<<<<<<</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="cardsG w-[90%] h-1/2 md:w-[50%] md:h-full w-screen">
+            <div class="swiper swiper-no-swiping swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swip">
+                </div>
+                <div class="swiper-slide swip"></div>
+                <div class="swiper-slide swip"></div>
+
+                <div class="swiper-slide swip">
+                  <div class="divnewpG flex flex-col w-full h-full w-full ">
+                    <div class=" dispoM ">
+                      <h1>Me contacter</h1>
+                      <p class="">Je suis disponible pour toutes proposition de projet</p>
+                    </div>
+                    <div class="divnewp flex flex-coll w-full h-[50%] ">
+                      <div class="w-[25%] h-[90%] divnewpC flex flex-col ">
+                        <h2>TELEPHONE</h2>
+                        <img src="assets/images/telephone.png" class="imageContact w-[50%] h-[30%]"
+                          alt="icon d'un téléphone" />
+                        <p>+33 745 426 131</p>
+                      </div>
+                      <div class="w-[25%] h-[90%] divnewpC  flex flex-col">
+                        <h2>EMAIL</h2>
+                        <img src="assets/images/mail.png" class="imageContact w-[50%] h-[30%]" alt="icon mail" />
+                        <p>me@simopatrice.com</p>
+                      </div>
+                      <div class="w-[25%] h-[90%] divnewpC  flex flex-col">
+                        <h2>LOCALISATION</h2>
+                        <img src="assets/images/localisation.png" class="imageContact w-[50%] h-[30%]"
+                          alt="icon google map" />
+                        <p>Île de france|| Orléans</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- <div>
+            <button onClick="slide2('prev')">Previous</button>
+            <button onClick="slide3('next3')">Next haut</button>
+          </div> -->
+
+        <div class=" back menu--12b menu">
+          <label class="lab--11b">
+            <input type="checkbox" onClick="slide3('next3')">
+            <svg viewBox="0 0 100 100">
+              <circle cx="20" cy="20" r="10" class="cercle" />
+              <path class="line--1 neon" d="M0 40h62c18 0 18-20-17 5L31 55" />
+              <path class="line--2 neon" d="M0 50h80" />
+              <path class="line--3 neon" d="M0 60h62c18 0 18 20-17-5L31 45" />
+            </svg>
+          </label>
+        </div>
+
+        <div class=" back menu--22b menu">
+          <label class="lab--22b">
+            <input type="checkbox" class="runButton " onClick="slide2('prev') ,play(),down()">
+            <svg viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="30" />
+              <path class="line--1" d="M0 40h62c18 0 18-20-17 5L31 55" />
+              <path class="line--2" d="M0 50h80" />
+              <path class="line--3" d="M0 60h62c18 0 18 20-17-5L31 45" />
+            </svg>
+          </label>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
